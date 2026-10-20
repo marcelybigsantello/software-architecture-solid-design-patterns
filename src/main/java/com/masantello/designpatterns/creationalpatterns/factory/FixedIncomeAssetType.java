@@ -10,6 +10,6 @@ public interface FixedIncomeAssetType {
     void retrieveEventsAgenda(List<EventsAgenda> events);
     void calculateSpread(String rating, LocalDate maturityDate);
     void defineMaturityDate(LocalDate maturityDate);
-    boolean hasFgcProtection();
+    void hasFgcProtection();
 
 }

@@ -34,8 +34,7 @@ public class CR implements FixedIncomeAssetType {
     }
 
     @Override
-    public boolean hasFgcProtection() {
+    public void hasFgcProtection() {
         System.out.println(this.getClass().getSimpleName() + " does not have FGC protection!");
-        return false;
     }
 }

@@ -34,8 +34,7 @@ public class LCA implements FixedIncomeAssetType {
     }
 
     @Override
-    public boolean hasFgcProtection() {
+    public void hasFgcProtection() {
         System.out.println(this.getClass().getSimpleName() + " has FGC protection!");
-        return true;
     }
 }
