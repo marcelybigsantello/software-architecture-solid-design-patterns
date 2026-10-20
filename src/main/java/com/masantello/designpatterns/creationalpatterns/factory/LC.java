@@ -30,6 +30,7 @@ public class LC implements FixedIncomeAssetType {
             throw new DateTimeException("Erro ao definir a data de vencimento do ativo " + this.getClass().getSimpleName());
         }
         this.maturityDate = maturityDate;
+        System.out.println("The maturity date is: " + this.maturityDate);
     }
 
     @Override
