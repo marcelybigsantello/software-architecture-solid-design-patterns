@@ -2,11 +2,10 @@ package com.masantello.designpatterns.creationalpatterns.builder.exercise;
 
 public class Student {
 
-    private Integer code;
-    private String name;
-    private String university;
-
-    private Integer age;
+    private final Integer code;
+    private final String name;
+    private final String university;
+    private final Integer age;
 
     private Student(Builder builder) {
         this.code = builder.code;
@@ -19,7 +18,6 @@ public class Student {
         private final Integer code;
         private final String name;
         private final String university;
-
         private Integer age;
 
         public Builder(Integer code, String name, String university) {
