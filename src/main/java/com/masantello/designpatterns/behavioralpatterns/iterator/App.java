@@ -15,7 +15,7 @@ public class App {
             System.out.println(name);
         }
 
-        System.out.println("=======================================================================================");
+        System.out.println("==========================================================================================");
         //how it works in Java
         List<String> maleNames = Arrays.asList("Adam", "Jhon", "Guilherme", "Kaue");
 
@@ -24,7 +24,7 @@ public class App {
         stack.push("20");
         stack.push("30");
 
-        Iterator<String> iterator = stack.iterator();
+        Iterator<String> iterator = maleNames.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
